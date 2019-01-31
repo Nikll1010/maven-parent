@@ -2,6 +2,8 @@ package com.nikll.entity;
 
 
 
+import org.springframework.stereotype.Repository;
+
 import java.util.Date;
 
 /**
@@ -9,8 +11,9 @@ import java.util.Date;
  * @Date: 2018/12/18 15:39
  * @Description:
  */
-
+@Repository
 public class Student {
+
     private int id;
     private int student_id;
     private String name;

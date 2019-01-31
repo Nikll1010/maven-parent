@@ -29,6 +29,8 @@ public class StudentController {
     @Autowired
     private StudentService studentService;
 
+//    @Autowired
+//    Student student;
     @RequestMapping("/addStudent")
     public String addStudent(HttpServletRequest request, HttpServletResponse response) {
 

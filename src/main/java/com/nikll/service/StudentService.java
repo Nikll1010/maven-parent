@@ -1,6 +1,7 @@
 package com.nikll.service;
 
 import com.nikll.entity.Student;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
